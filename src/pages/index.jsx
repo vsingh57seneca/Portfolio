@@ -5,7 +5,7 @@ import skills from "@/data/Skills.json";
 export default function Home() {
   return (
     <main className="">
-      <div className="grid grid-cols-2 p-4 gap-y-8 gap-x-4 md:p-12">
+      <div className="grid grid-cols-2 p-4 gap-y-8 gap-x-4 md:p-12 md:mb-20">
         <div className="col-span-full md:col-span-1 flex flex-col gap-y-8">
           <Image
             src={"/images/me/me.png"}
@@ -34,7 +34,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-y-12 gap-x-4 p-6 md:p-12 bg-slate-300">
+      <div className="grid grid-cols-2 gap-y-12 gap-x-4 p-6 md:p-12 bg-gradient-to-b from-white from-10% via-slate-300 to-slate-300 to-90%">
         <div className="col-span-full">
           <h1 className="text-3xl font-medium mb-8">Technical Overview</h1>
           <div className="flex flex-col gap-y-8">
