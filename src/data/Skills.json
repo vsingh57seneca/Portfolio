@@ -1,0 +1,120 @@
+{
+  "soft_skills": [
+    {
+        "name": "Communication",
+        "image": "/images/skills/communication.png"
+    },
+    {
+        "name": "Teamwork and Collaboration",
+        "image": "/images/skills/teamwork.png"
+    },
+    {
+        "name": "Problem-Solving",
+        "image": "/images/skills/problem-solving.png"
+    },
+    {
+        "name": "Adaptability",
+        "image": "/images/skills/adaptability.png"
+    },
+    {
+        "name": "Time Management",
+        "image": "/images/skills/time-management.png"
+    },
+    {
+        "name": "Continuous Learning",
+        "image": "/images/skills/learning.png"
+    },
+    {
+        "name": "Leadership",
+        "image": "/images/skills/leadership.png"
+    },
+    {
+        "name": "Ethical Awareness",
+        "image": "/images/skills/aware.png"
+    }
+    ],
+  "technical_skills": {
+    "languages":[
+        {
+            "name": "JavaScript",
+            "image": "/images/skills/javascript.png"
+        },
+        {
+            "name": "Python",
+            "image": "/images/skills/python.png"
+        },
+        {
+            "name": "C#",
+            "image": "/images/skills/csharp.png"
+        },
+        {
+            "name": "HTML5",
+            "image": "/images/skills/html5.png"
+        },
+        {
+            "name": "CSS3",
+            "image": "/images/skills/css3.png"
+        },
+        {
+            "name": "SQL",
+            "image": "/images/skills/sql.png"
+        },
+        {
+            "name": "Linux / UNIX",
+            "image": "/images/skills/linux.png"
+        }
+    ],
+    "frameworks":[
+        {
+            "name": "ReactJS",
+            "image": "/images/skills/react.png"
+        },
+        {
+            "name": "NextJS",
+            "image": "/images/skills/next.png"
+        },
+        {
+            "name": "Django",
+            "image": "/images/skills/django.png"
+        },
+        {
+            "name": "ExpressJS",
+            "image": "/images/skills/express.png"
+        },
+        {
+            "name": "ASP.NET Core",
+            "image": "/images/skills/asp.png"
+        }
+    ],
+    "libraries":[
+        {
+            "name": "Tailwind CSS",
+            "image": "/images/skills/tailwind.png"
+        },
+        {
+            "name": "Axios",
+            "image": "/images/skills/axios.png"
+        },
+        {
+            "name": "Cheerio",
+            "image": "/images/skills/cheerio.png"
+        },
+        {
+            "name": "Socket.IO",
+            "image": "/images/skills/socketio.png"
+        },
+        {
+            "name": "Jotai",
+            "image": "/images/skills/jotai.png"
+        },
+        {
+            "name": "Formik",
+            "image": "/images/skills/formik.png"
+        },
+        {
+            "name": "Framer Motion",
+            "image": "/images/skills/framer.png"
+        }
+    ]
+  }
+}

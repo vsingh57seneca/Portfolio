@@ -1,0 +1,37 @@
+[
+    {
+        "employer": "Durante's No Frills",
+        "title": "Nightsift Grocery Clerk",
+        "start_date": "June 2015",
+        "end_date": "January 2017",
+        "logo": "/images/logos/NoFrills.png"
+    },
+    {
+        "employer": "Justin's No Frills",
+        "title": "Grocery Clerk",
+        "start_date": "January 2017",
+        "end_date": "March 2019",
+        "logo": "/images/logos/NoFrills.png"
+    },
+    {
+        "employer": "Anthony's No Frills",
+        "title": "Frozen Food's Department Manager",
+        "start_date": "March 2019",
+        "end_date": "September 2019",
+        "logo": "/images/logos/NoFrills.png"
+    },
+    {
+        "employer": "Andie",
+        "title": "Fullstack Developer Intern",
+        "start_date": "June 2023",
+        "end_date": "August 2023",
+        "logo": "/images/logos/Andie.png"
+    },
+    {
+        "employer": "Anthony's No Frills",
+        "title": "Meat Clerk",
+        "start_date": "Sept 2019",
+        "end_date": "Present",
+        "logo": "/images/logos/NoFrills.png"
+    }
+]
