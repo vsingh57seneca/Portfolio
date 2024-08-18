@@ -18,7 +18,7 @@ const Desktop = () => {
           {MenuItems?.map((item, index) => {
             return (
               <>
-                <div className={`font-semibold text-xl cursor-pointer select-none text-neutral-600 hover:text-neutral-950 ${window.location.pathname === item?.url && `bg-gray-200 py-1 px-2 rounded-lg`}`} onClick={() => router.push(item?.url)}>{item?.name}</div>
+                <div className={`font-semibold text-xl cursor-pointer select-none text-neutral-600 hover:text-neutral-950 ${window.location.pathname === item?.url && `bg-gray-400 py-2 px-4 rounded-lg`}`} onClick={() => router.push(item?.url)}>{item?.name}</div>
               </>
             )
           })}

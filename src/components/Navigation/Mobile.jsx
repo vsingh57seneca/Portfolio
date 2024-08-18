@@ -36,7 +36,10 @@ const Mobile = () => {
       >
         <div className="flex flex-col items-center justify-center h-full gap-y-6">
           {MenuItems?.map((item, index) => {
-            return <div className="font-semibold text-4xl cursor-pointer select-none" onClick={() => router.push(item?.url)}>{item?.name}</div>;
+            return <div className="font-semibold text-4xl cursor-pointer select-none" onClick={() => {
+              setShowMenu(!showMenu);
+              router.push(item?.url);
+            }}>{item?.name}</div>;
           })}
         </div>
       </div>

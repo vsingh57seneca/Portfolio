@@ -1,8 +1,10 @@
 import Image from "next/image";
 import workExperience from "@/data/WorkExperience.json";
 import skills from "@/data/Skills.json";
+import { useRouter } from "next/router";
 
 export default function Home() {
+  const router = useRouter();
   return (
     <main className="">
       <div className="grid grid-cols-2 p-4 gap-y-8 gap-x-4 md:p-12 md:mb-20">
@@ -24,10 +26,10 @@ export default function Home() {
             Passionate about creating responsive and meaningful applications.
           </p>
           <div className="flex gap-x-6">
-            <button className="px-3 py-2 rounded-md bg-neutral-700 hover:bg-neutral-900 text-white transition-all ease-in-out">
+            <button className="px-5 py-3 rounded-md bg-neutral-700 hover:bg-neutral-900 text-white transition-all ease-in-out" onClick={() => router.push('/contact')}>
               Contact me
             </button>
-            <button className="px-3 py-2 rounded-md border border-gray-400 hover:bg-gray-300 transition-all ease-in-out">
+            <button className="px-5 py-3 rounded-md border border-gray-400 hover:bg-gray-300 transition-all ease-in-out">
               Preview my projects
             </button>
           </div>
