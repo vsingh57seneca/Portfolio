@@ -29,7 +29,7 @@ export default function Home() {
             <button className="px-5 py-3 rounded-md bg-neutral-700 hover:bg-neutral-900 text-white transition-all ease-in-out" onClick={() => router.push('/contact')}>
               Contact me
             </button>
-            <button className="px-5 py-3 rounded-md border border-gray-400 hover:bg-gray-300 transition-all ease-in-out">
+            <button className="px-5 py-3 rounded-md border border-gray-400 hover:bg-gray-300 transition-all ease-in-out" onClick={() => router.push('/projects')}>
               Preview my projects
             </button>
           </div>

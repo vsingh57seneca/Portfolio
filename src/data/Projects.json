@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Keebgram",
+    "start_date": "January 2024",
+    "end_date": "August 2024",
+    "description": "Keebgram is a passion-driven final school project designed to revolutionize the keyboard enthusiast community. It offers a dynamic platform where users can unleash their creativity by designing custom keycap sets for their keyboards while connecting with fellow enthusiasts.",
+    "description2": "With social media aspects including posts and comments, and a powerful custom keyboard editor, Keebgram is more than just a tool—it's a vibrant community hub for those who love all things keyboards.",
+    "url": "https://v2-frontend-victor.vercel.app/",
+    "preview": "/images/backgrounds/keebgram-preview.jpg",
+    "languages": ["JavaScript"],
+    "frameworks": ["NextJS", "ExpressJS"],
+    "libraries": ["Tailwind CSS", "Axios", "Cheerio", "Socket.IO", "Jotai"],
+    "platforms": ["Azure", "Vercel"]
+  },
+  {
+    "name": "Andie",
+    "start_date": "June 2023",
+    "end_date": "August 2023",
+    "description": "Andie is a start up company that found success during 2020 from their live information tracking application to monitor wait times into public places such as groceries store.",
+    "description2": "The Andie Corporate Guest Experience is a bidding platform that provides restaurants with unique opportunities. No matter the size, restaurants can find and submit bids for big-ticket catering and dining experiences that bring significant traffic and revenue.",
+    "url": "https://andie.work/",
+    "preview": "/images/backgrounds/andie-preview.jpg",
+    "languages": ["JavaScript"],
+    "frameworks": ["NextJS", "Django"],
+    "libraries": ["Tailwind CSS", "Axios"],
+    "platforms": ["Azure"]
+  }
+]

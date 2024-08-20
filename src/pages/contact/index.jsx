@@ -42,7 +42,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="col-span-full md:col-span-1">
-          <h1 className="uppercase text-2xl font-bold mb-8">Get in touch</h1>
+          <h1 className="uppercase text-2xl font-bold mb-8">contact me</h1>
           <div className="grid grid-cols-2 gap-x-6 gap-y-4">
             <div className="flex flex-col gap-y-1 col-span-1">
               <label className="font-semibold">First Name</label>
