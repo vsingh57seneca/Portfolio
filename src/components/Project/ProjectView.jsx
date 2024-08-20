@@ -20,7 +20,7 @@ const ProjectView = ({project}) => {
           <div className="col-span-full lg:col-span-1">
             <img
               src={project?.preview}
-              className="border-2 border-black rounded-lg"
+              className="border-2 border-black rounded-lg "
             />
             <div className="font-semibold">
               <p className="text-end">

@@ -125,7 +125,7 @@ export default function Home() {
         <div className="col-span-full md:col-span-1">
           <h1 className="text-3xl font-medium mb-8">Work Experience</h1>
           <div className="flex flex-col gap-y-8">
-            {workExperience?.reverse()?.map((job, index) => {
+            {workExperience?.map((job, index) => {
               return (
                 <>
                   <div className="flex items-center justify-start">

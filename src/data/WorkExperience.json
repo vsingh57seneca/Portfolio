@@ -1,23 +1,9 @@
 [
     {
         "employer": "Anthony's No Frills",
-        "title": "Nightshift Grocery Clerk",
-        "start_date": "June 2014",
-        "end_date": "January 2017",
-        "logo": "/images/logos/NoFrills.png"
-    },
-    {
-        "employer": "Anthony's No Frills",
-        "title": "Grocery Clerk",
-        "start_date": "January 2017",
-        "end_date": "March 2019",
-        "logo": "/images/logos/NoFrills.png"
-    },
-    {
-        "employer": "Anthony's No Frills",
-        "title": "Frozen Food's Department Manager",
-        "start_date": "March 2019",
-        "end_date": "September 2019",
+        "title": "Meat Clerk",
+        "start_date": "Sept 2019",
+        "end_date": "Present",
         "logo": "/images/logos/NoFrills.png"
     },
     {
@@ -29,9 +15,23 @@
     },
     {
         "employer": "Anthony's No Frills",
-        "title": "Meat Clerk",
-        "start_date": "Sept 2019",
-        "end_date": "Present",
+        "title": "Frozen Food's Department Manager",
+        "start_date": "March 2019",
+        "end_date": "September 2019",
+        "logo": "/images/logos/NoFrills.png"
+    },
+    {
+        "employer": "Anthony's No Frills",
+        "title": "Grocery Clerk",
+        "start_date": "January 2017",
+        "end_date": "March 2019",
+        "logo": "/images/logos/NoFrills.png"
+    },
+    {
+        "employer": "Anthony's No Frills",
+        "title": "Nightshift Grocery Clerk",
+        "start_date": "June 2014",
+        "end_date": "January 2017",
         "logo": "/images/logos/NoFrills.png"
     }
 ]
