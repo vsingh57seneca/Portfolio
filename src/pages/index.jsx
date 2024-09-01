@@ -15,12 +15,12 @@ export default function Home() {
             height={100}
             className="rounded-full"
           />
-          <h1 className="text-5xl font-medium">Hello! I'm Victor Singh</h1>
+          <h1 className="text-5xl font-medium">Hi, I'm Victor!</h1>
         </div>
 
         <div className="col-span-full md:col-span-1 flex flex-col gap-y-8">
           <h1 className="text-3xl font-medium">
-            An aspiring Fullstack Developer born and raised in Toronto.
+            An aspiring Fullstack Developer based in Toronto.
           </h1>
           <p className="font-bold text-sm text-gray-500">
             Passionate about creating responsive and meaningful applications.

@@ -114,6 +114,14 @@
         {
             "name": "Framer Motion",
             "image": "/images/skills/framer.png"
+        },
+        {
+            "name": "Bcrypt",
+            "image": "/images/skills/bcrypt.png"
+        },
+        {
+            "name": "JSON Web Token",
+            "image": "/images/skills/jwt.png"
         }
     ]
   }
