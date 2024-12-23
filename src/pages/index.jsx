@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="">
       <div className="grid grid-cols-2 p-4 gap-y-8 gap-x-4 md:p-12 md:mb-20">
-        <div className="col-span-full md:col-span-1 flex flex-col gap-y-8">
+        <div className="col-span-full md:col-span-1 flex flex-col gap-y-8 lg:items-center">
           <Image
             src={"/images/me/me.png"}
             width={100}

@@ -36,6 +36,10 @@
   "technical_skills": {
     "languages":[
         {
+            "name": "TypeScript",
+            "image": "/images/skills/typescript.png"
+        },
+        {
             "name": "JavaScript",
             "image": "/images/skills/javascript.png"
         },
