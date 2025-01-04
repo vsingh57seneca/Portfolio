@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "start:prod": "npm run build && sudo npx next start"
+    "start:prod": "sudo npm i && sudo npm run build && sudo npx next start"
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
