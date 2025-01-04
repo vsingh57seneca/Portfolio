@@ -24,11 +24,12 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className='h-14 md:h-24 p-4 mb-10'>
+      <nav className="z-50 h-20 p-4 mb-10 bg-white shadow-md">
         {deviceWidth >= 768 ? <Desktop /> : <Mobile />}
       </nav>
     </>
   );
+  
 };
 
 export default Navbar;

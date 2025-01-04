@@ -4,7 +4,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 import { useRouter } from "next/router";
 
 const Projects = () => {
-    const router = useRouter();
+  const router = useRouter();
   return (
     <div className="p-4 md:p-16 flex flex-col gap-y-12">
       <h1 className="font-bold text-4xl">Projects</h1>
@@ -16,15 +16,21 @@ const Projects = () => {
         {ProjectsArray?.map((project, index) => {
           return (
             <>
-              <div className="col-span-full lg:col-span-1 gap-y-2">
+              <div
+                className="col-span-full lg:col-span-1 gap-y-2 cursor-pointer hover:shadow-lg p-2 shadow rounded-lg border border-gray-200 hover:scale-110"
+                onClick={() => router.push(`projects/${project?.name}`)}
+              >
                 <img
                   src={project?.preview}
-                  className="rounded-lg border border-gray-400 cursor-pointer"
-                  onClick={() => router.push(`projects/${project?.name}`)}
+                  className="w-full h-32 object-contain"
                 />
+
                 <div className="flex justify-between w-full items-center">
                   <h1 className="text-xl font-semibold">{project?.name}</h1>
-                  <FaExternalLinkAlt className="cursor-pointer" onClick={() => router.push(`projects/${project?.name}`)} />
+                  <FaExternalLinkAlt
+                    className="cursor-pointer"
+                    onClick={() => router.push(`projects/${project?.name}`)}
+                  />
                 </div>
               </div>
             </>

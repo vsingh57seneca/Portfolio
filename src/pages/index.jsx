@@ -7,15 +7,15 @@ export default function Home() {
   const router = useRouter();
   return (
     <main className="">
-      <div className="grid grid-cols-2 p-4 gap-y-8 gap-x-4 md:p-12 md:mb-20">
-        <div className="col-span-full md:col-span-1 flex flex-col gap-y-8 lg:items-center">
+      <div className="grid grid-cols-2 p-4 gap-y-8 gap-x-4 md:p-12 md:mb-12">
+        <div className="col-span-full md:col-span-1 flex flex-col gap-y-8 items-center">
           <Image
-            src={"/images/me/me.png"}
-            width={100}
-            height={100}
+            src={"/images/me/linkedin_me.jpg"}
+            width={150}
+            height={150}
             className="rounded-full"
           />
-          <h1 className="text-5xl font-medium">Hi, I'm Victor!</h1>
+          <h1 className="text-4xl lg:text-6xl font-medium text-center">Hi, I'm Victor!</h1>
         </div>
 
         <div className="col-span-full md:col-span-1 flex flex-col gap-y-8">
@@ -23,20 +23,20 @@ export default function Home() {
             An aspiring Fullstack Developer based in Toronto.
           </h1>
           <p className="font-bold text-sm text-gray-500">
-            Passionate about creating responsive and meaningful applications.
+            2025 graduate of Seneca Polytechnic's Computer Programming & Analysis program. Passionate about creating responsive and impactful software solutions.
           </p>
           <div className="flex gap-x-6">
             <button className="px-5 py-3 rounded-md bg-neutral-700 hover:bg-neutral-900 text-white transition-all ease-in-out" onClick={() => router.push('/contact')}>
-              Contact me
+              Contact
             </button>
             <button className="px-5 py-3 rounded-md border border-gray-400 hover:bg-gray-300 transition-all ease-in-out" onClick={() => router.push('/projects')}>
-              Preview my projects
+              View projects
             </button>
           </div>
         </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-y-12 gap-x-4 p-6 md:p-12 bg-gradient-to-b from-white from-10% via-slate-300 to-slate-300 to-90%">
+      <div className="grid grid-cols-2 gap-y-12 gap-x-4 p-6 md:p-12 bg-gradient-to-b from-white from-10% via-slate-300 to-slate-300 to-90% rounded-xl">
         <div className="col-span-full">
           <h1 className="text-3xl font-medium mb-8">Technical Overview</h1>
           <div className="flex flex-col gap-y-8">
