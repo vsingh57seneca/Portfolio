@@ -31,11 +31,24 @@
     "end_date": "On-going Support",
     "description": "PokemonDND is a tool used in Pokemon Dungeon and Dragons 5e Edition. The aim of this tool is to speed up the character creation process for dungeon masters.",
     "description2": "This project was used to learn about TypeScript, as this is my first attempt with TypeScript, I have learned a lot about how to use the superset of JavaScript by enforcing types with object-oriented programming concepts.",
-    "url": "https://victorsingh.ca/pokemonDND/",
+    "url": "https://pokemon.victorsingh.ca/",
     "preview": "/images/backgrounds/pokemondnd-preview.jpg",
     "languages": ["TypeScript"],
     "frameworks": ["NextJS"],
     "libraries": ["Tailwind CSS", "Jotai"],
+    "platforms": ["None"]
+  },
+  {
+    "name": "SportsPicker",
+    "start_date": "January 2025",
+    "end_date": "On-going Support",
+    "description": "Sports Picker is an all in one sports betting app to easily look up games, stats and more.",
+    "description2": "This project stems from my hobbies in sports. By utilizing public data I am able to retrieve player game logs, analyze previous performances, and get their betting odds lines.",
+    "url": "https://sports.victorsingh.ca/",
+    "preview": "/images/backgrounds/pokemondnd-preview.jpg",
+    "languages": ["TypeScript"],
+    "frameworks": ["NextJS"],
+    "libraries": ["Tailwind CSS", "Axios", "Cheerio"],
     "platforms": ["None"]
   }
 ]

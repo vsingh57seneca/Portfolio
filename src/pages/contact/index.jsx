@@ -54,7 +54,7 @@ const Contact = () => {
     <div className="p-2 flex flex-col gap-y-4">
       <h1 className="text-xl lg:text-3xl font-semibold">Contact Me</h1>
       <p className="">
-        Send me a message if you wish you reachout and get in contact with me!
+        Send me a message if you wish you reach out and get in contact with me!
       </p>
       <form
         onSubmit={handleSubmit}
