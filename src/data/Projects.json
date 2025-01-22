@@ -45,7 +45,7 @@
     "description": "Sports Picker is an all in one sports betting app to easily look up games, stats and more.",
     "description2": "This project stems from my hobbies in sports. By utilizing public data I am able to retrieve player game logs, analyze previous performances, and get their betting odds lines.",
     "url": "https://sports.victorsingh.ca/",
-    "preview": "/images/backgrounds/pokemondnd-preview.jpg",
+    "preview": "/images/backgrounds/sports-picker-preview.jpg",
     "languages": ["TypeScript"],
     "frameworks": ["NextJS"],
     "libraries": ["Tailwind CSS", "Axios", "Cheerio"],

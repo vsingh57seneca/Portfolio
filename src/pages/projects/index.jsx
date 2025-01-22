@@ -12,12 +12,12 @@ const Projects = () => {
         Here is a collection of projects I have worked on during my time in
         school and in my leisure.
       </p>
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid grid-cols-3 gap-6">
         {ProjectsArray?.map((project, index) => {
           return (
             <>
               <div
-                className="col-span-full lg:col-span-1 gap-y-2 cursor-pointer hover:shadow-lg p-2 shadow rounded-lg border border-gray-200 hover:scale-110"
+                className="col-span-full lg:col-span-1 gap-y-2 cursor-pointer hover:shadow-lg p-2 shadow rounded-lg border border-gray-200 hover:scale-110 lg:w-80"
                 onClick={() => router.push(`projects/${project?.name}`)}
               >
                 <img
