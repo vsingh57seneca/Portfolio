@@ -10,7 +10,8 @@
     "languages": ["JavaScript"],
     "frameworks": ["NextJS", "ExpressJS"],
     "libraries": ["Tailwind CSS", "Axios", "Cheerio", "Socket.IO", "Jotai"],
-    "platforms": ["Azure", "Vercel"]
+    "platforms": ["Azure", "Vercel"],
+    "displayName": "KeebGram"
   },
   {
     "name": "Andie",
@@ -23,7 +24,8 @@
     "languages": ["JavaScript"],
     "frameworks": ["NextJS", "Django"],
     "libraries": ["Tailwind CSS", "Axios"],
-    "platforms": ["Azure"]
+    "platforms": ["Azure"],
+    "displayName": "Andie"
   },
   {
     "name": "PokemonDND",
@@ -36,7 +38,8 @@
     "languages": ["TypeScript"],
     "frameworks": ["NextJS"],
     "libraries": ["Tailwind CSS", "Jotai"],
-    "platforms": ["None"]
+    "platforms": ["None"],
+    "displayName": "Pokemon DND"
   },
   {
     "name": "SportsPicker",
@@ -49,6 +52,7 @@
     "languages": ["TypeScript"],
     "frameworks": ["NextJS"],
     "libraries": ["Tailwind CSS", "Axios", "Cheerio"],
-    "platforms": ["None"]
+    "platforms": ["None"],
+    "displayName": "Sports Picker"
   }
 ]

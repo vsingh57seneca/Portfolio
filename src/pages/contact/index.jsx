@@ -51,8 +51,8 @@ const Contact = () => {
   };
 
   return (
-    <div className="p-2 flex flex-col gap-y-4">
-      <h1 className="text-xl lg:text-3xl font-semibold">Contact Me</h1>
+    <div className="p-4 md:p-16 flex flex-col gap-y-12">
+          <h1 className="font-bold text-4xl">Contact Me</h1>
       <p className="">
         Send me a message if you wish you reach out and get in contact with me!
       </p>

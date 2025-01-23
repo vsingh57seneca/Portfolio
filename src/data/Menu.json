@@ -4,6 +4,10 @@
         "url": "/"
     },
     {
+        "name": "Status",
+        "url": "/status"
+    },
+    {
         "name": "Projects",
         "url": "/projects"
     },
